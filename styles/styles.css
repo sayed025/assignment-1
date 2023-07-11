@@ -139,15 +139,31 @@ body {
     margin-top: 130px;
 }
 
-.deal-right >img {
+.deal-right>img {
     margin-top: 100px;
 }
 
-.deal-right{
-    margin-right    : 100px;
+.deal-right {
+    margin-right: 100px;
     margin-bottom: 50px;
 }
-.deal-left{
+
+.deal-left {
     margin-left: 100px;
 }
 
+/* instagram section */
+.insta-img {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: space-around    ;
+    width: 60%;
+    margin: auto;
+
+}
+
+.imag > img {
+    width: 250px;
+    height: 300px;
+}
