@@ -211,12 +211,12 @@ header {
 
 footer {
     background-color: #111010;
-    height: 450px;
+    height: 400px;
     display: flex;
     justify-content: space-around;
 }
 
-.footer-container{
+.footer-container {
     text-align: center;
 }
 
@@ -243,4 +243,25 @@ footer {
     text-align: center;
     margin-top: -24px;
     text-align: center;
+}
+
+/* feedback section styles */
+
+.feedback{
+    margin-top: -100px;
+}
+.person-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+
+.person {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
